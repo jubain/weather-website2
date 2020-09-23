@@ -15,7 +15,7 @@ form.addEventListener('submit', (e) => {
                 if (data.error) {
                     messageone.textContent = data.error;
                 } else {
-                    messageone.textContent = data.latitude + data.longitude;
+                    messageone.textContent = data.temperature;
                     messagetwo.textContent = data.location;
                 }
             })
