@@ -59,7 +59,7 @@ app.get('/weather', (req, res) => {
                 latitude: data.longitude,
                 longitude: data.latitude,
                 location: data.location,
-                country: forecastdata
+                temperature: forecastdata
             })
         });
     });
