@@ -15,7 +15,7 @@ form.addEventListener('submit', (e) => {
                 if (data.error) {
                     messageone.textContent = data.error;
                 } else {
-                    messageone.textContent = data.temperature;
+                    messageone.textContent = data.temperature + " Degree Celcius";
                     messagetwo.textContent = data.location;
                 }
             })
