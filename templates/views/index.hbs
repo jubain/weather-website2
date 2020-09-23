@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="icon" href="/img/weather.png">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque provident perspiciatis ad id repellat, itaque
+            qui quisquam numquam amet exercitationem vero dolor odit, dolorem atque dicta dignissimos praesentium
+            accusantium natus?</p>
+        <form>
+            <input type="text" placeholder="Enter any location">
+            <button>Search</button>
+        </form>
+        <p id="messageone"></p>
+        <p id="messagetwo"></p>
+    </div>
+
+    {{>footer}}
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
