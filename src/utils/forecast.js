@@ -8,7 +8,7 @@ const forecast = (location, callback) => {
                 callback('Unable to find the location', undefined)
             } else {
                 callback(undefined,
-                    response.data.current.temperature
+                    `The temperature of our region ${response.data.current.temperature} and the time is your zone ${response.data.current.observation_time}`
                 )
             }
         })
